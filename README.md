@@ -1,12 +1,50 @@
-# React + Vite
+# IT22347794
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 Globaltrail
 
-Currently, two official plugins are available:
+Explore countries worldwide with **Globaltrail**, a dynamic web app built with React, Framer Motion, and Tailwind CSS. Discover country details, save favorites, and visualize them on a globe!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[**→ Demo**](https://globaltrail.netlify.app/)
 
-## Expanding the ESLint configuration
+## ✨ Features
+- **Country Search**: Find countries by name
+- **Region Filtering**: Filter countries by continent/region
+- **Favorites System**: Bookmark your favorite countries
+- **Globe Visualization**: View countries on an interactive globe
+- **Responsive Design**: Works on all device sizes
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies
+- **React** (Frontend framework)
+- **Framer Motion** (Animations)
+- **Tailwind CSS** (Styling)
+- **REST Countries API** ([https://restcountries.com/](https://restcountries.com/))
+- **Netlify** (Hosting)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 
+- npm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/globaltrail.git
+
+2. Navigate to project directory:
+   ```bash
+   cd globaltrail
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Run development server:
+   ```bash
+   npm run dev
+
+5. Open http://localhost:5173 in your browser
+
+### Challenges & Solutions
+- Challenge: Slow Loading Due to Large API Responses
+- Solution: Optimized API calls by fetching only necessary fields
