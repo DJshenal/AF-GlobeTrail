@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { Live_World } from './pages/Live_World';
 import { Favorites } from './pages/Favorites';
 import { CountryDetail } from './pages/CountryDetail';
+import { ErrorPage } from './pages/ErrorPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/Live-world" element={<Live_World />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/country/:code" element={<CountryDetail />} />
+              <Route path="*" element={<ErrorPage />} />
             </Routes>
           </main>
           <Toaster position="top-center" />
