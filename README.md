@@ -33,7 +33,7 @@ Explore countries worldwide with **Globaltrail**, a dynamic web app built with R
 
 2. Navigate to project directory:
    ```bash
-   cd globaltrail
+   cd .\rest-countries-api\
 
 3. Install dependencies:
    ```bash
@@ -48,3 +48,12 @@ Explore countries worldwide with **Globaltrail**, a dynamic web app built with R
 ### Challenges & Solutions
 - Challenge: Slow Loading Due to Large API Responses
 - Solution: Optimized API calls by fetching only necessary fields
+
+###  Running Tests
+1. Navigate to the project directory:
+   ```bash
+   cd rest-countries-api
+
+2. Run the command:
+   ```bash
+   npx vitest run
